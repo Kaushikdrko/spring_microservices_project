@@ -30,6 +30,7 @@ public class patient {
     private String address;
 
     @NotNull
+    @Column(name = "date_of_birth")
     private LocalDate dateofBirth;
 
     @NotNull
